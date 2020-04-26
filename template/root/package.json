@@ -1,0 +1,31 @@
+{
+  "name": "@sc/DEF_PROJECT_NAME",
+  "version": "0.0.1",
+  "description": "UI",
+  "license": "ISC",
+  "main": "lib/index.common.js",
+  "style": "lib/themes/theme-default.css",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./ --fix"
+  },
+  "dependencies": {
+    "deepmerge": "^1.2.0",
+    "normalize-wheel": "^1.0.1"
+  },
+  "devDependencies": {
+    "vue-router": "^3.0.6"
+  },
+  "maintainers": [
+    {
+      "name": "DEF_GIT_USER_NAME",
+      "mail": "DEF_GIT_USER_EMAIL"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@t-gitlab.smartcinema.com.cn:node/v-ui.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.smartcinema.com.cn"
+  }
+}

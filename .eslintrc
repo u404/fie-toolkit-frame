@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/standard"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "no-extra-semi": "off",
+    "no-extend-native": "off",
+    "prefer-promise-reject-errors": "off",
+    "vue/valid-template-root": "off",
+    "import/first": "off",
+    "import/no-named-default": "off",
+    "import/no-webpack-loader-syntax": "off",
+    "quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
+}
